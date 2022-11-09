@@ -2,6 +2,8 @@ Song.delete_all
 Genre.delete_all
 Artist.delete_all
 
+require 'faker'
+
 hotline_bling = Song.create(name: 'Hotline Bling')
 thriller = Song.create(name: 'Thriller')
 
